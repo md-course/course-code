@@ -19,6 +19,9 @@ jobs:
               run: pwd
     display-wd-info-windows:
         runs-on: windows-latest
+        defaults:
+            run:
+                shell: bash
         steps:
             - name: Display Working Directory & List Fiels
               run: |
