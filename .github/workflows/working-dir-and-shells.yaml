@@ -2,7 +2,7 @@ name: Working Dirs & Shells
 on: [push]
 jobs:
     display-wd-info:
-        runs-on: ubuntu-latests
+        runs-on: ubuntu-latest
         steps:
             - name: Display Working Directory & List Fiels
               run: |
@@ -12,7 +12,7 @@ jobs:
                 echo $GITHUB_REPOSITORY
                 echo $GITHUB_WORKSPACE
     display-wd-info-windows:
-        runs-on: windows-latests
+        runs-on: windows-latest
         steps:
             - name: Display Working Directory & List Fiels
               run: |
